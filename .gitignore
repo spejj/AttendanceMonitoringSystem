@@ -1,0 +1,49 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Configuration files
+app/config/database.php
+config/database.php
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Dependencies
+vendor/
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Composer
+composer.phar
+/vendor/
+
+# Cache and session files
+/tmp/
+/temp/
+/sessions/
+/cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Generated files
+*.cache
+*.pyc
+__pycache__/
